@@ -35,4 +35,14 @@ var logMessage = function (message) { return console.log(message); };
 function logError(error) {
     console.error(error);
 }
+var myResult = {
+    playerName: 'Anthony',
+    score: 5,
+    problemCount: 5,
+    factor: 7
+};
+var player = {
+    name: 'Michael',
+    formatName: function () { return 'Mike'; }
+};
 //# sourceMappingURL=app.js.map
